@@ -55,3 +55,4 @@ Widget有三个关键组成。
 
 - `static fun main()`
   - 初始化并运行小组件。
+  - 因为你在你的Widget构件的声明前加上了@main属性，系统会调用你的widget的main()方法来启动widget。SwiftUI提供了一个默认的方法实现，它以一种适合平台的方式管理启动过程。
